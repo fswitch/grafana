@@ -10,3 +10,8 @@ Dashboard for GlusterFS data from gluster_exporter via Prometheus
 - available bricks
 
 gluster_exporter: https://github.com/ofesseler/gluster_exporter
+
+Prometheus yml
+  - job_name: gluster
+    static_configs:
+    - targets: ['localhost:9189']
