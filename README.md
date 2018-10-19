@@ -6,6 +6,7 @@
 Dashboard for GlusterFS data from gluster_exporter via Prometheus
 - inodes by volume
 - size by volume
+- +/- volumes data growth
 - heal files count
 - available bricks
 
